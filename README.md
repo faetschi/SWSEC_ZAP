@@ -1,6 +1,6 @@
-# Password Generator using Node.js
+# Test for Intercepting POST Requests from Frontend to Backend using OWASP ZAP Attack Proxy and Node.js Server
 
-### Test for Intercepting POST Requests from Frontend to Backend using OWASP ZAP Attack Proxy and Node.js Server
+## Password Generator
 
 The application implements **only client-side** password generation limit of **max 10 passwords** at form completion, with **no server-side validation** to check if the `numPasswords` variable is actually less than 10.
 
