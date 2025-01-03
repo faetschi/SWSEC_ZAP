@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+        }
+        label, input, button {
+            display: block;
+            margin-bottom: 1em;
+        }
+        .error {
+            color: red;
+        }
+        .output {
+            margin-top: 1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <form id="passwordForm">
+        <label for="numPasswords">Number of passwords (max 10):</label>
+        <input type="number" id="numPasswords" name="numPasswords" required>
+        <button type="submit">Generate Passwords</button>
+    </form>    
+    <div class="error" id="error"></div>
+    <div class="output" id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
