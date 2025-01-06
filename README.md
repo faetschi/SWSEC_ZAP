@@ -4,6 +4,10 @@
 
 The application implements **only client-side** password generation limit of **max 10 passwords** at form completion, with **no server-side validation** to check if the `numPasswords` variable is actually less than 10.
 
+## Prerequisites
+
+Download and install latest version of **Node.js** and **OWASP ZAP Attack Proxy Software**
+
 ### How to Use
 
 1. **Start the Node.js server**:
